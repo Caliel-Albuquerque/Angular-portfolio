@@ -1,0 +1,154 @@
+{
+	"Header.Item1": "Sobre mim",
+	"Header.Item2": "Experiências",
+	"Header.Item3": "Projetos",
+	"Header.Item4": "Contato",
+	"Header.cvBtn": "Meu CV",
+	"Header.cvName": "CV.pdf",
+	"Banner.Pretitle": "Olá! Meu nome é",
+	"Banner.Description": "Comecei na área de T.I desde novo como criador de sites WordPress para empresas locais e até para de fora do país. Na faculdade pude participar de iniciações cientificas e diversos projetos, no qual pude aprimorar meus conhecimentos técnicos em HTML, CSS, React, nodeJS, Sass e TypeScript",
+	"Banner.ActionBtn": "Entre em contato",
+	"AboutMe.Title": "Sobre Mim",
+	"AboutMe.Paragraphs": [
+		"Olá, sou estudante de Análise e Desenvolvimento de Sistemas na Faculdade Senac e comecei há quatro anos no ramo de T.I. Primeiro, com sites Wordpress. Depois, pude participar de projetos Front-end, nos quais consegui desenvolver soluções para empresas, como o Hospital da Encruzilhada(Cisam) e na Unidade de",
+		"Educação Profissional do Recife(Senac), por meio de um projeto acadêmico que participou de diversas rodas de negócio.",
+		"Nessas experiências, adquiri conhecimentos avançados em HTML e CSS, além de conhecimento em JavaScript e,intermediário, em TypeScript. Em todas essas situações eu não fiquei parado, sempre busquei conhecimento e formas de resolver o problema que aparecesse, logo é nisso que penso, eu sempre buscarei uma forma de superar ",
+		"a minha dificuldade."
+	],
+
+	"Experience.Title": "Minhas experiências",
+	"Experience.Jobs": [
+		{
+			"Tab": "Agência BrasilNet",
+			"Title": "Wordpress Developer",
+			"Date": "Julho 2022 - Presente",
+			"Description": [
+				"Construo Ecommerce e WebApps utilizando conhecimentos de front-end e, principalmente, wordpress",
+				"Utilizo diversos plugins(Elementor, Woocommerce, JetElements etc) na construção de sites e Ecommerces"
+			]
+		},
+
+		{
+			"Tab": "TGOO Worldwide",
+			"Title": "Front-end Developer",
+			"Date": "Novembro 2023 - Dezembro 2023",
+			"Description": [
+				"Atuei na criação de componentes web para sites e Ecommerces, além de adquirir boa experiência em versionamento de codigo",
+				"Utilizei HTML, CSS, JS e SCSS na construção dos componentes. Também utilizei algumas bibliotecas Jquery"
+			]
+		},
+		{
+			"Tab": "CISAM UPE",
+			"Title": "Web Developer",
+			"Date": "Junho 2022 - Setembro 2022",
+			"Description": [
+				"Eu comecei a trabalhar no Hospital como bolsista em uma iniciação científica e aprendi bastante sobre trabalho em equipe, graças à variedade de estudantes envolvidos no projeto.",
+				"Eu fiquei responsável pela criação de ambientes Docker e também pela integração do nosso back-end e o Front-end, no qual desenvolvi um site e pude participar do processo de desenvolvimento de um dashboard de acesso exclusivo dos funcionários. ",
+				"Utilizei, HTML, CSS, JAVASCRIPT, NODEJS, MONGODB e Wordpress"
+			]
+		}
+
+	],
+	"FeatureProjects.Title": "Algumas coisas que construí",
+	"FeatureProjects.Label": "Featured Project",
+	"FeatureProjects.Projects": [
+		{
+			"Title": "YourDP - App de workflow empresarial",
+			"Description": "O aplicativo funciona como um departamento pessoal. Com ele o usuário poderá bater o ponto, dentro de um raio delimitado pela empresa. O ponto terá entrada, almoço, volta do almoço e saída. Além disso, ele conseguirá ver o seu contracheque, ver as suas férias e justificar a sua ausência. Também, tem uma aba de desenvolcimento pessoal, no qual o gestor de RH ou lider de equipe poderá acompanhar todo o histórico de desenvolvimento do colaborador. O app conta com um design robusto e bem interativo",
+			"imgs": [
+				"assets/images/yourdp/yourdp1.png",
+				"assets/images/yourdp/yourdp2.png"
+			],
+			"demoLink": "https://github.com/Caliel-Albuquerque/ReactNative-YourDP",
+			"Technologies": [
+				"HTML/HTML5",
+				"CSS/CSS3",
+				"React-native",
+				"JavaScript",
+				"AngularJS",
+				"NodeJS",
+				"Git",
+				"Jira",
+				"Figma"
+			]
+		},
+		{
+			"Title": "Rick and Morty Feed",
+			"Description": "A página inicial exibe uma lista de personagens da série Rick and Morty, obtidos através da chamada da API. Cada personagem é exibido com sua imagem, nome e espécie.Ao clicar em um personagem na lista da página inicial, o usuário é redirecionado para a página de detalhes do personagem. Essa página exibe informações detalhadas sobre o personagem, como sua imagem, nome, espécie, status e gênero. A aplicação é responsiva e adapta-se a diferentes tamanhos de tela, garantindo uma boa experiência do usuário em dispositivos móveis.",
+			"imgs": [
+				"assets/images/rickandmorty/rickandmorty1.png",
+				"assets/images/rickandmorty/rickandmorty2.png"
+			],
+			"demoLink": "https://rickandmortyapi-hzz00cym6-caliel-albuquerque.vercel.app/",
+			"Technologies": [
+				"HTML/HTML5",
+				"CSS/CSS3",
+				"TypeScript",
+				"ReactTS",
+				"react-router-dom",
+				"Git",
+				"Jira",
+				"Figma"
+			]
+		},
+		{
+			"Title": "ReactJS - Feed de posts",
+			"Description": "O projeto consiste no consumo de uma API, no qual há uma listagem das postagens, um filtro pelo title do post e paginação da tabela. Além disso, dá pra adicionar um post, deletar e atualizar o mesmo. O projeto é bem completo, contando com paginação, filtro de buscas e todo o processo de um CRUD. Ele também é responsivo. O projeto foi realizado para a empresa TGOO Worldwide",
+			"imgs": [
+				"assets/images/crudreact/crudreact1.png",
+				"assets/images/crudreact/crudreact2.png"
+			],
+			"demoLink": "https://github.com/Caliel-Albuquerque/CrudReactJS/tree/631f26f8ad498c6b2357ddbf99177fef51982215",
+			"Technologies": [
+				"HTML",
+				"CSS",
+				"LESS",
+				"ReactJS",
+				"Yarn",
+				"react-bootstrap",
+				"react-router-dom",
+				"Git",
+				"axios",
+				"react-hook-form"
+			]
+		},
+		{
+			"Title": "Dashboard para controle de RH",
+			"Description": "Esse projeto foi construido por mim para complementar o app YourDP, ele faz requisições de uma API, também construida por mim. Nesse dashboard o responsável técnico vai conseguir visualizar todos os colaboradores e seus registros de ponto, poderá criar um colaborador, consegue subir um arquivo por meio do Cloudnary e muitas outras funções ",
+			"imgs": [
+				"assets/images/crudyourdp/crudyourdp1.png",
+				"assets/images/crudyourdp/crudyourdp2.png",
+				"assets/images/crudyourdp/crudyourdp3.png",
+				"assets/images/crudyourdp/crudyourdp4.png"
+
+			],
+			"demoLink": "https://dashboard-your-dp.vercel.app/index.html",
+			"Technologies": [
+				"HTML",
+				"SCSS",
+				"JavaScript",
+				"Webpack",
+				"Git",
+				"NodeJS",
+				"Figma",
+				"Cloudnary"
+			]
+		}
+	],
+	"OtherProjects.Title": "Outros projetos notáveis",
+	"OtherProjects.Projects": [
+		{
+			"Title": "API Yourdp",
+			"Description": "Este projeto consiste em uma API desenvolvida em Node.js para o registro, login de usuários, criação de arrays e muitas outras funções. A API oferece rotas de registro, autenticação e uma rota privada. A autenticação é baseada no uso de tokens JWT (JSON Web Tokens).",
+			"ghLink": "https://github.com/Caliel-Albuquerque/ApiNode---JWT",
+			"demoLink": "https://github.com/Caliel-Albuquerque/ApiNode---JWT",
+			"Technologies": ["NodeJS", "JavaScript"]
+		}
+		
+	],
+	"Contact.Pretitle": "Vamos nos conhecer!",
+	"Contact.Title": "Entre em contato",
+	"Contact.Content": "Ficarei feliz em receber seu contato caso queira conversar sobre novas oportunidades. Escreva-me e responderei assim que receber sua mensagem. ",
+	"Contact.Btn": "Contato"
+
+}

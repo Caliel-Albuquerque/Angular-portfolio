@@ -1,0 +1,68 @@
+<footer>
+	<div [@animateFooter]>
+		<ul class="footer-left-bar d-none d-md-block">
+			<li>
+				<a
+					(click)="
+						analyticsService.sendAnalyticEvent(
+							'click_github',
+							'footer',
+							'github'
+						)
+					"
+					href="https://github.com/Caliel-Albuquerque"
+					target="_blank"
+				>
+					<i class="fab fa-github"></i>
+				</a>
+			</li>
+			<li>
+				<a
+					(click)="
+						analyticsService.sendAnalyticEvent(
+							'click_linkedin',
+							'footer',
+							'github'
+						)
+					"
+					href="https://www.linkedin.com/in/caliel-farias/"
+					target="_blank"
+				>
+					<i class="fab fa-linkedin-in"></i>
+				</a>
+			</li>
+		</ul>
+		<div class="footer-right-bar d-none d-md-block">
+			<a
+				(click)="
+					analyticsService.sendAnalyticEvent(
+						'click_send_mail',
+						'footer',
+						'email'
+					)
+				"
+				href="mailto:calielalbuquerque7@gmail.com"
+				target="_blank"
+				>calielalbuquerque7@gmail.com
+			</a>
+		</div>
+	</div>
+
+	<div class="footer-credits text-center">
+		<a
+			(click)="
+				analyticsService.sendAnalyticEvent(
+					'click_github_portfolio_florece',
+					'footer',
+					'click'
+				)
+			"
+			href="https://github.com/Caliel-Albuquerque"
+			target="_blank"
+			rel="nofollow noopener noreferrer"
+		>
+			<div>Built with Angular by Caliel Farias</div>
+		</a>
+	
+	</div>
+</footer>

@@ -1,0 +1,28 @@
+<section class="section testimonials" id="testimonial">
+	<div class="container">
+		<div class="section-box">
+			<div class="about-title mb-5" data-aos="fade-up" data-aos-duration="1000">
+				<h3 class="e-font section-title">
+					<span class="code-font n-section-title">04.</span>
+					{{ "Testimonial.Title" | translate }}
+				</h3>
+			</div>
+		</div>
+		<ng-container
+			*ngFor="let testimonial of 'Testimonial.Items' | translate; let i = index"
+		>
+			<div class="testimonial-content">
+				<p
+					[innerHTML]="testimonial.Comment"
+					data-aos="fade-up"
+					data-aos-duration="1000"
+				></p>
+				<img class="testimonial-photo" src="{{ testimonial.img }}" alt="" />
+				<div>
+					-{{ testimonial.Name }}, {{ testimonial.Position }} of
+					{{ testimonial.Company }}
+				</div>
+			</div>
+		</ng-container>
+	</div>
+</section>

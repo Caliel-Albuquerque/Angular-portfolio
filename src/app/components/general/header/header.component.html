@@ -1,0 +1,133 @@
+<nav [@animateMenu] class="navbar main-navbar on-top" [class.nav-shadow]="this.pageYPosition > 0">
+	<div class="header-container">
+		<div class="logo fade-enter-done" tabindex="-1">
+			<a href="/" aria-label="home">
+				<div class="logo-container">
+			
+					<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M25.3562 19.9528H22.0359C21.9412 19.4083 21.7666 18.9259 21.5121 18.5057C21.2576 18.0795 20.9409 17.7185 20.5621 17.4226C20.1834 17.1267 19.7513 16.9047 19.266 16.7567C18.7866 16.6029 18.2687 16.5259 17.7124 16.5259C16.724 16.5259 15.848 16.7745 15.0845 17.2717C14.321 17.7629 13.7232 18.485 13.2912 19.4379C12.8591 20.3848 12.6431 21.5419 12.6431 22.9091C12.6431 24.3 12.8591 25.4718 13.2912 26.4247C13.7292 27.3717 14.3269 28.0878 15.0845 28.5732C15.848 29.0526 16.721 29.2923 17.7035 29.2923C18.248 29.2923 18.757 29.2212 19.2305 29.0792C19.7099 28.9312 20.139 28.7152 20.5178 28.4311C20.9025 28.147 21.225 27.7978 21.4854 27.3835C21.7518 26.9692 21.9353 26.4957 22.0359 25.9631L25.3562 25.9808C25.2319 26.8449 24.9626 27.6558 24.5483 28.4134C24.1399 29.1709 23.6043 29.8397 22.9414 30.4197C22.2785 30.9938 21.5032 31.4437 20.6154 31.7692C19.7276 32.0888 18.7422 32.2486 17.6591 32.2486C16.0611 32.2486 14.6347 31.8787 13.38 31.1388C12.1252 30.399 11.1368 29.3307 10.4148 27.9339C9.69271 26.5372 9.33168 24.8622 9.33168 22.9091C9.33168 20.95 9.69567 19.2751 10.4237 17.8842C11.1516 16.4875 12.143 15.4192 13.3977 14.6793C14.6525 13.9395 16.0729 13.5696 17.6591 13.5696C18.6712 13.5696 19.6122 13.7116 20.4822 13.9957C21.3523 14.2798 22.1276 14.6971 22.8082 15.2475C23.4889 15.792 24.0482 16.4608 24.4862 17.2539C24.93 18.0411 25.2201 18.9407 25.3562 19.9528Z"
+							fill="#00E7E9" />
+						<path d="M27.2933 41V22.8182H38.9411V25.5792H30.587V30.5153H38.142V33.2763H30.587V41H27.2933Z"
+							fill="#00E7E9" />
+						<rect x="1" y="1" width="48" height="48" stroke="#00E7E9" stroke-width="2" />
+					</svg>
+
+				</div>
+			</a>
+		</div>
+		<ul ngbNav #nav="ngbNav" class="menu-ul">
+			<li ngbNavItem (click)="
+					analyticsService.sendAnalyticEvent('click_about', 'menu', 'click')
+				">
+				<a ngbNavLink (click)="scroll('about')"><span class="nav-number">01. </span>
+					<span class="underline nav-text">
+						{{ "Header.Item1" | translate }}</span></a>
+				<ng-template ngbNavContent>First content</ng-template>
+			</li>
+			<li ngbNavItem (click)="
+					analyticsService.sendAnalyticEvent(
+						'click_experience',
+						'menu',
+						'click'
+					)
+				">
+				<a ngbNavLink (click)="scroll('jobs')"><span class="nav-number">02. </span>
+					<span class="underline nav-text">
+						{{ "Header.Item2" | translate }}</span></a>
+				<ng-template ngbNavContent>Second content</ng-template>
+			</li>
+			<li ngbNavItem (click)="
+					analyticsService.sendAnalyticEvent('click_jobs', 'menu', 'click')
+				">
+				<a ngbNavLink (click)="scroll('projects')"><span class="nav-number">03. </span>
+					<span class="underline nav-text">
+						{{ "Header.Item3" | translate }}</span></a>
+				<ng-template ngbNavContent>Second content</ng-template>
+			</li>
+
+			<li ngbNavItem (click)="
+					analyticsService.sendAnalyticEvent('click_contact', 'menu', 'click')
+				">
+				<a ngbNavLink (click)="scroll('contact')"><span class="nav-number">04. </span>
+					<span class="underline nav-text">
+						{{ "Header.Item4" | translate }}</span></a>
+				<ng-template ngbNavContent>Second content</ng-template>
+			</li>
+			<li ngbNavItem>
+				<a (click)="downloadCV()" class="main-btn cv-btn" ngbNavLink>
+					{{ "Meu CV" | translate }}
+				</a>
+			</li>
+		</ul>
+		<div class="menu-wrapper">
+			<div [class.animate]="responsiveMenuVisible" (click)="responsiveMenuVisible = !responsiveMenuVisible"
+				class="hamburger-menu"></div>
+		</div>
+		<div class="menu-responsive" [ngStyle]="{ 'pointer-events': !responsiveMenuVisible ? 'none' : '' }">
+			<aside [class.aside-show]="responsiveMenuVisible" [class.nav-shadow]="this.pageYPosition > 0" class="on-top">
+				<nav>
+					<ol>
+						<li (click)="
+								analyticsService.sendAnalyticEvent(
+									'click_about',
+									'menu',
+									'click'
+								)
+							">
+							<a (click)="scroll('about')">
+								<span>01. </span> {{ "Header.Item1" | translate }}
+							</a>
+						</li>
+						<li (click)="
+								analyticsService.sendAnalyticEvent(
+									'click_experience',
+									'menu',
+									'click'
+								)
+							">
+							<a (click)="scroll('jobs')">
+								<span>02. </span> {{ "Header.Item2" | translate }}
+							</a>
+						</li>
+						<li (click)="
+								analyticsService.sendAnalyticEvent(
+									'click_jobs',
+									'menu',
+									'click'
+								)
+							">
+							<a (click)="scroll('projects')">
+								<span>03. </span> {{ "Header.Item3" | translate }}
+							</a>
+						</li>
+
+						<li (click)="
+							analyticsService.sendAnalyticEvent(
+								'click_jobs',
+								'menu',
+								'click'
+							)
+						">
+							<a (click)="scroll('contact')">
+								<span>04. </span> {{ "Header.Item4" | translate }}
+							</a>
+						</li>
+
+
+
+						<li>
+							<a (click)="downloadCV()" class="main-btn cv-btn">
+								{{ "Header.cvBtn" | translate }}
+							</a>
+						</li>
+
+						<!-- <li>
+                            <img src="https://www.worldometers.info/img/flags/us-flag.gif" alt="English">
+                        </li> -->
+					</ol>
+				</nav>
+			</aside>
+		</div>
+	</div>
+</nav>
