@@ -1,13 +1,11 @@
 # Portfolio
 
-Results-driven Senior Software Developer base in Toronto Canada with over 5 years of professional experience in web and software development. I have worked on various large-scale projects that prioritized responsive design, performance optimization, and cross-functional collaboration.
-
-I pride myself on my ability to translate project requirements into visually appealing and efficient solutions.
+Comecei na área de T.I desde novo como criador de sites WordPress para empresas locais e até para de fora do país. Na faculdade pude participar de iniciações cientificas e diversos projetos, no qual pude aprimorar meus conhecimentos técnicos em HTML, CSS, React, nodeJS, Sass e TypeScript Clique abaixo para acessar o portilofio
 
 Clique abaixo para acessar o portilofio
-<!-- <https://annrobles.github.io/> -->
+<https://calielfarias.vercel.app//>
 
-<!-- ![preview](https://annrobles.github.io/assets/images/preview.png) -->
+![preview](https://calielfarias.vercel.app/assets/images/preview.png) 
 
 
 ## Development server
