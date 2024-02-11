@@ -2,9 +2,11 @@
 
 Comecei na área de T.I desde novo como criador de sites WordPress para empresas locais e até para de fora do país. Na faculdade pude participar de iniciações cientificas e diversos projetos, no qual pude aprimorar meus conhecimentos técnicos em HTML, CSS, React, nodeJS, Sass e TypeScript
 Clique abaixo para acessar o portilofio
-<!-- <https://annrobles.github.io/> -->
 
-<!-- ![preview](https://annrobles.github.io/assets/images/preview.png) -->
+<https://calielfarias.vercel.app//>
+
+
+![preview](https://calielfarias.vercel.app/assets/images/preview.png) 
 
 
 ## Development server
