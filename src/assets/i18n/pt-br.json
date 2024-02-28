@@ -143,7 +143,24 @@
 			"ghLink": "https://github.com/Caliel-Albuquerque/ApiNode---JWT",
 			"demoLink": "https://github.com/Caliel-Albuquerque/ApiNode---JWT",
 			"Technologies": ["NodeJS", "JavaScript"]
+		},  
+
+		{
+			"Title": "API Serverless Framework",
+			"Description": "Nesse projeto pude construir uma API completa usando Serverless framework com integração ao DynamoDB",
+			"ghLink": "https://github.com/Caliel-Albuquerque/Aws-Serveless",
+			"demoLink": "https://github.com/Caliel-Albuquerque/Aws-Serveless",
+			"Technologies": ["AWS Lambda", "Amazon DynamoDB", "Serverless Framework", "NodeJS"]
+		},
+
+		{
+			"Title": "Angular - Clone BuzzFeed",
+			"Description": "Nesse projeto pude construir um clone da plataforma BuzzFedd com o Angular, no qual pude aprender muito sobre componentes reativos e os ciclos de vida dos componentes",
+			"ghLink": "https://github.com/Caliel-Albuquerque/AngularQuiz/tree/master",
+			"demoLink": "https://angular-quiz-weld.vercel.app/",
+			"Technologies": ["Angular", "HTML", "Css", "TypeScript"]
 		}
+		
 		
 	],
 	"Contact.Pretitle": "Vamos nos conhecer!",
