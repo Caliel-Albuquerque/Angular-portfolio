@@ -37,6 +37,18 @@
 				"Utilizei HTML, CSS, JS e SCSS na construção dos componentes. Também utilizei algumas bibliotecas Jquery"
 			]
 		},
+
+		{
+			"Tab": "Hospital das Clínicas",
+			"Title": "Big data developer",
+			"Date": "Março 2023 - Dezembro 2023",
+			"Description": [
+				"Projeto realizado em parceria com esse grande hospital de Recife, Pernambuco, no qual pude criar um código python que melhora a visualização de pesquisas internas do hospital",
+				"Criei um codigo que conseguiu converter uma planilha excel com informações embaralhadas em um conjunto de dados mais organizados e mais visíveis para a análise de dados"
+				
+			]
+		},
+
 		{
 			"Tab": "CISAM UPE",
 			"Title": "Web Developer",
